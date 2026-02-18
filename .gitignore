@@ -1,0 +1,32 @@
+# Binaries
+fredloan
+/tmp/fredloan_tmp
+
+# SQLite databases
+*.db
+*.db-wal
+*.db-shm
+
+# Logs
+*.log
+server.log
+
+# Go dependencies and build artifacts
+vendor/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Editor specific
+.idea/
+.vscode/
+*.swp
+*.swo
